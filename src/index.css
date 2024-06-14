@@ -1,0 +1,65 @@
+body {
+  background: url('https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  
+  }
+  
+  h1 {
+    font-size: 48px;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 
+    0 0 5px #FFFF00,
+    0 0 10px #FFFF00,
+    0 0 15px #FFFF00,
+    0 0 20px #FFFF00,
+    0 0 30px #FFFF00,
+    0 0 40px #FF0000;
+
+  }
+  
+  input {
+  display: block;
+  width: 100%;
+  border: none;
+  color: white;
+  font-size: 20px;
+  background: #C7C8CC;
+  padding: 20px;
+  font-family: "Permanent Marker", cursive;
+  margin-bottom: 20px;
+  box-shadow:
+  0 0 5px #FFFF00;
+  }
+  
+  button {
+  padding: 10px 40px 10px 40px;
+  background-color: #FFFF00;
+  color: black;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: "Permanent Marker", cursive;
+  box-shadow:
+  0 0 5px #FFFF00;
+  }
+  
+  p {
+  max-width: 100%;
+  background: #EEEDEB;
+  margin-top: 20px;
+  font-family: "Permanent Marker", cursive;
+  width: 600px;
+  font-size: 20px;
+    }
+  
+    .icons{
+      margin-top: 20px;
+      display: flex;
+      justify-content:flex-end;
+      background-color: #EEEDEB;
+      padding: 10px;
+    }
