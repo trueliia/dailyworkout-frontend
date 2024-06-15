@@ -55,7 +55,10 @@ body {
   width: 600px;
   font-size: 20px;
     }
-  
+  .makeChanges{
+      display: flex;
+      flex-direction: row;
+    }
     .icons{
       margin-top: 20px;
       display: flex;
