@@ -63,3 +63,48 @@ body {
       background-color: #EEEDEB;
       padding: 10px;
     }
+@media (max-width: 768px) {
+    h1 {
+        font-size: 36px;
+    }
+    
+    input {
+        font-size: 18px;
+        padding: 15px;
+    }
+    
+    button {
+        font-size: 18px;
+        padding: 8px 30px;
+    }
+    
+    p {
+        width: 100%;
+        font-size: 18px;
+    }
+    
+    .icons {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 28px;
+    }
+    
+    input {
+        font-size: 16px;
+        padding: 10px;
+    }
+    
+    button {
+        font-size: 16px;
+        padding: 6px 20px;
+    }
+    
+    p {
+        font-size: 16px;
+    }
+}
